@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-maxw
+{
+    max-width: 85.5rem;
+}
+
+body
+{
+    background-color: #23243B;
+}
