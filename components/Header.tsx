@@ -1,5 +1,6 @@
 import logo from "@/assets/logo.png"
 import Image from "next/image"
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -10,11 +11,11 @@ export const Header = () => {
 					<Image src={logo} alt="logo" className="h-28 w-48"/>
 				</picture>
 
-				<ul className="flex items-center gap-10 pr-0 lg:pr-40 nexa-font">
-					<li>Home</li>
-					<li>Sobre</li>
-					<li>Elojob</li>
-					<li>Script</li>
+				<ul className="flex items-center gap-10 pr-0 lg:pr-40 nexa-font text-4xl">
+					<li><Link href={'/'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Home</Link></li>
+					<li><Link href={'/sobre'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Sobre</Link></li>
+					<li><Link href={'/elojob'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Elojob</Link></li>
+					<li><Link href={'/script'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Script</Link></li>
 				</ul>
 			</div>
 		</header>

@@ -4,12 +4,16 @@
 
 .lux-bg
 {
-    background: linear-gradient(180deg, rgba(3, 4, 6, 0.0979021) 5.36%, #23243B 99.99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%), #120D1C;
+    background: linear-gradient(180deg, rgba(3, 4, 6, 0.0979021) 5.36%, #23243B 99.99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%), url(/lux-background.png);
+    background-size: contain;
 }
 
 .feedback-bg
-{
-    background: linear-gradient(180deg, #23243B 0%, rgba(35, 36, 59, 0) 100%), #4C216B;
+{/* Background */
+
+
+    background: linear-gradient(180deg, #23243B 0%, rgba(35, 36, 59, 0) 100%), url(/feedback-background.png) space content-box;
+
 }
 
 .h1
@@ -52,7 +56,7 @@
     font-family: var(--font-nexa);
     font-style: normal;
     box-sizing: border-box;
-    background: #23243B;
+    /*background: #23243B;*/
     border: 0.2rem solid rgba(255, 255, 255, 0.3);
     margin: auto;
 }
@@ -68,3 +72,4 @@ body
     
     color: #F5FFFD;
 }
+

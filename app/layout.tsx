@@ -3,15 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import localFont from '@next/font/local'
+import localFont from 'next/font/local'
 
 const nexa = localFont({
-  src: [
-    {
-      path: "../assets/Nexa-Heavy.ttf",
-      weight: '0'
-    }
-  ]
+  src: "../assets/Nexa-Heavy.ttf"
 });
 
 const inter = Inter({ subsets: ["latin"] });
@@ -28,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={nexa.className}>
         <Header />
         <div>{children}</div>
         <Footer />

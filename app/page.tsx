@@ -11,7 +11,6 @@ import sc1 from "@/assets/screenshot1.png"
 import sc2 from "@/assets/screenshot2.png"
 import sc3 from "@/assets/screenshot3.png"
 import sc4 from "@/assets/screenshot4.png"
-import lux_background from "@/assets/lux-background.png"
 
 export default function Home() {
   return (
@@ -52,7 +51,7 @@ export default function Home() {
       </div>
       
       <div className="max-w-4xl flex flex-col space-y-10 min-[1150px]:space-y-0 min-[1150px]:flex-row justify-center items-center min-[1150px]:items-start m-auto min-[1150px]:space-x-16 xl:space-x-32">
-        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl">
+        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl transition-all drop-shadow-[0_15px_15px_rgba(0,0,0,0.25)] hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] bg-[#1A1A29] hover:bg-[#0d0d15]">
           <picture className="w-72 pb-4 m-auto">
             <Image src={challenger} alt="challenger"/>
           </picture>
@@ -63,7 +62,7 @@ export default function Home() {
             Suba já
           </div>
         </div>
-        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl">
+        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl transition-all drop-shadow-[0_15px_15px_rgba(0,0,0,0.25)] hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] bg-[#1A1A29] hover:bg-[#0d0d15]">
           <picture className="w-72 pb-4 m-auto">
             <Image src={xerath} alt="xerath"/>
           </picture>
@@ -74,7 +73,7 @@ export default function Home() {
             Adquira seu Faker mode!
           </div>
         </div>
-        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl">
+        <div className="flex flex-col justify-center items-start p-3 py-5 product-cards w-96 text-center text-4xl transition-all drop-shadow-[0_15px_15px_rgba(0,0,0,0.25)] hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] bg-[#1A1A29] hover:bg-[#0d0d15]">
           <picture className="w-72 pb-4 m-auto">
             <Image src={mf} alt="miss fortune"/>
           </picture>
