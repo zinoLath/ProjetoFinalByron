@@ -2,12 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar-maxw
+.lux-bg
 {
-    max-width: 85.5rem;
+    background: linear-gradient(180deg, rgba(3, 4, 6, 0.0979021) 5.36%, #23243B 99.99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%), #120D1C;
+}
+
+.feedback-bg
+{
+    background: linear-gradient(180deg, #23243B 0%, rgba(35, 36, 59, 0) 100%), #4C216B;
+}
+
+.h1
+{
+    font-family: var(--font-nexa);
+    font-style: normal;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+/* O MELHOR JEITO DE CONSEGUIR O SEU ELO VERDADEIRO */
+.lux-button{
+    background: #3F465C;
+    border-radius: 40px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #F5FFFD;
+}
+
+.trust-cards
+{
+    /* Rectangle 8 */
+
+    font-family: var(--font-nexa);
+    font-style: normal;
+    box-sizing: border-box;
+    background: #23243B;
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+
+.product-cards
+{
+    /* Rectangle 8 */
+
+    font-family: var(--font-nexa);
+    font-style: normal;
+    box-sizing: border-box;
+    background: #23243B;
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+
+.nexa-font{
+    font-family: var(--font-nexa);
+    font-style: normal;
 }
 
 body
 {
     background-color: #23243B;
+    
+    color: #F5FFFD;
 }

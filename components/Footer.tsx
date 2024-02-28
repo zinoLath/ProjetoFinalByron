@@ -6,7 +6,7 @@ import Image from "next/image"
 export const Footer = () => {
   return (
 	<>
-	  <footer className="flex  bg-white min-h-96 h-fit" >
+	  <footer className="flex bg-white min-h-96 h-fit text-black nexa-font" >
 		<div className="flex flex-col lg:flex-row items-center justify-between w-full py-10">
 			<div className="mx-auto lg:mx-0 lg:pl-40 lg:pr-0">
 				<div className="w-fit max-w-96 pb-5 px-5 text-justify">
