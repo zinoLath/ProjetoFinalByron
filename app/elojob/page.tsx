@@ -35,7 +35,7 @@ const ElojobPage = () => {
   return (
     <>
       <div className="bg-[url('/elojob-bg.png')] bg-local bg-origin-border bg-center bg-cover h-fit py-32"> 
-        <div className="flex flex-col elojob-bg m-auto w-[51rem] h-[51rem] items-center justify-center place-content-center py-32">
+        <div className="flex flex-row elojob-bg m-auto w-[51rem] h-[51rem] items-center justify-center place-content-center py-32">
           <div className="w-full">
             <div className="text-center">
               ELOJOB / DUOBOOST<br/>
@@ -44,8 +44,8 @@ const ElojobPage = () => {
               exemplo: Flash no D ou no F, rotas<br/>
               específicas.
             </div>
-            <div className="grid grid-cols-3 place-content-center items-center justify-items-center justify-center mx-auto content-center ">
-              <div className="flex-none w-fit justify-self-end ">
+            <div className="lg:grid lg:grid-cols-3 place-content-center items-center justify-items-center justify-center mx-auto content-center w-fit lg:w-auto mb-10 lg:mb-0">
+              <div className="mx-auto lg:mx-0 lg:flex-none w-fit text-center lg:text-right justify-self-center lg:justify-self-end">
                 Elo Atual:<br/>
                 <Dropdown>
                   <DropdownTrigger>
@@ -74,10 +74,10 @@ const ElojobPage = () => {
                   </DropdownMenu>
                 </Dropdown>
               </div>
-              <picture className="h-72 w-56 m-10 mb-0">
-                <Image src={challenger} alt="a" />
+              <picture className="h-36 lg:h-72 w-28 lg:w-56 m-10 mb-0">
+                <Image className="h-36 lg:h-auto w-36 lg:w-auto" src={challenger} alt="a" />
               </picture>
-              <div className="flex-none w-fit justify-self-start">
+              <div className="mx-auto lg:mx-0 lg:flex-none w-fit text-center lg:text-left justify-self-center lg:justify-self-start">
                 Elo desejado:<br/>
                 <Dropdown>
                   <DropdownTrigger>
