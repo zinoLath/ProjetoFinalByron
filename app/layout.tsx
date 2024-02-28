@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
+import {Providers} from "./providers";
 
 const nexa = localFont({
   src: "../assets/Nexa-Heavy.ttf"
@@ -22,11 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={nexa.className}>
-        <Header />
-        <div>{children}</div>
-        <Footer />
+        <Providers>
+          <Header />
+          <div>{children}</div>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
