@@ -110,7 +110,7 @@ const ElojobPage = () => {
             <div className="text-center text-4xl mb-10">
               Valor:<br/>R$ {Math.max((eloMap.get(selectedValueFuture)-eloMap.get(selectedValueCurrent))*100,0)},00
             </div>
-            <div className="text-center bg-red-700 hover:bg-red-600 shadow-lg hover:shadow-2xl text-white m-auto px-10 py-5 w-52 rounded-2xl text-lg transition-all">
+            <div className="text-center bg-red-700 hover:bg-red-600 shadow-lg hover:shadow-2xl text-white m-auto px-5 py-5 w-52 rounded-2xl text-xl transition-all">
               <button>COMPRE JÁ!</button>
             </div>
           </div>
