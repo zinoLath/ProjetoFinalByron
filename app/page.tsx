@@ -15,14 +15,17 @@ import sc4 from "@/assets/screenshot4.png"
 export default function Home() {
   return (
     <>
+    <div className="bg-no-repeat">
       <div className="lux-bg w-full h-fit py-10">
-        <div className="mx-auto max-w-6xl px-10 pb-20">
+        <div className="mx-auto max-w-6xl px-10 ">
           <picture className="w-full">
             <Image src={lux} alt="lux"/>
           </picture>
+          </div>
           <div className="h1 lux-button justify-center items-center text-3xl py-2">
             O MELHOR JEITO DE CONSEGUIR SEU ELO VERDADEIRO
           </div>
+          
         </div>
         <div className="max-w-4xl flex flex-col space-y-10 md:space-y-0 md:flex-row justify-center items-center m-auto">
           <div className="flex flex-col justify-center items-center p-3 py-5 trust-cards w-44 text-center">
@@ -46,7 +49,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-6xl h1 text-center py-20 px-20">
+      <div className="text-4xl sm:text-6xl h1 text-center py-20 px-20">
         CONHEÇA NOSSOS PRODUTOS!
       </div>
       
@@ -105,11 +108,7 @@ export default function Home() {
           </picture>
         </div>
       </div>
-      
-      <h1>Hello world</h1>
-      <Image src={xerath} alt="xerath" />
 
-      <Link href={'/elojob'} className="text-red-500">Elojob</Link>
     </>
   );
 }
