@@ -73,7 +73,30 @@ body
     color: #F5FFFD;
 }
 
+.staff-cards
+{
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: 8px;
+}
 
+.final-bg{
+    background: url(../assets/fundo2.png);
+}
+
+.final-bg::before{
+    opacity: 0.2;
+}
+
+.inicial-bg{
+    background: url(../assets/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meio-bg{
+    background: url(../assets/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 .elojob-bg
 {

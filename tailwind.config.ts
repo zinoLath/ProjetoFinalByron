@@ -19,7 +19,8 @@ const config: Config = {
         '128': '32rem',
       },
       fontFamily: {
-        sans: ['var(--font-nexa)']
+        sans: ['var(--font-nexa)'],
+        mine: ['Mine', '--font-mine']
       }
 
     },
