@@ -1,3 +1,120 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lux-bg
+{
+    background: linear-gradient(180deg, rgba(3, 4, 6, 0.0979021) 5.36%, #23243B 99.99%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%), url(/lux-background.png);
+    background-size: contain;
+}
+
+.feedback-bg
+{/* Background */
+
+
+    background: linear-gradient(180deg, #23243B 0%, rgba(35, 36, 59, 0) 100%), url(/feedback-background.png) space content-box;
+
+}
+
+.h1
+{
+    font-family: var(--font-nexa);
+    font-style: normal;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+/* O MELHOR JEITO DE CONSEGUIR O SEU ELO VERDADEIRO */
+.lux-button{
+    background: #3F465C;
+    border-radius: 40px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #F5FFFD;
+}
+
+.trust-cards
+{
+    /* Rectangle 8 */
+
+    font-family: var(--font-nexa);
+    font-style: normal;
+    box-sizing: border-box;
+    background: #23243B;
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+
+.product-cards
+{
+    /* Rectangle 8 */
+
+    font-family: var(--font-nexa);
+    font-style: normal;
+    box-sizing: border-box;
+    /*background: #23243B;*/
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: auto;
+}
+
+.nexa-font{
+    font-family: var(--font-nexa);
+    font-style: normal;
+}
+
+body
+{
+    background-color: #23243B;
+    
+    color: #F5FFFD;
+}
+
+.staff-cards
+{
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
+    margin: 8px;
+}
+
+.final-bg{
+    background: url(../assets/fundo2.png);
+}
+
+.final-bg::before{
+    opacity: 0.2;
+}
+
+.inicial-bg{
+    background: url(../assets/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meio-bg{
+    background: url(../assets/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+.elojob-bg
+{
+    box-sizing: border-box;
+
+    background: linear-gradient(180deg, #1A1A29 67.5%, #2D2D98 100%);
+    border: 2px solid #3F465C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 25rem;
+
+}
+
+.script-bg
+{
+    box-sizing: border-box;
+
+    background: linear-gradient(180deg, #1A1A29 67.5%, #2D2D98 100%);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+
+}
