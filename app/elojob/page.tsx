@@ -38,10 +38,10 @@ const ElojobPage = () => {
         <div className="flex flex-row elojob-bg m-auto lg:w-[51rem] h-[51rem] items-center justify-center place-content-center py-32">
           <div className="w-full">
             <div className="text-center">
-              ELOJOB / DUOBOOST<br/>
-              Você pode escolher adicionais no<br/>
-              momento de finalizar o pedido, como por<br/>
-              exemplo: Flash no D ou no F, rotas<br/>
+              ELOJOB / DUOBOOST<br />
+              Você pode escolher adicionais no<br />
+              momento de finalizar o pedido, como por<br />
+              exemplo: Flash no D ou no F, rotas<br />
               específicas.
             </div>
             <div className="lg:grid lg:grid-cols-3 place-content-center items-center justify-items-center justify-center mx-auto content-center w-fit lg:w-auto mb-10 lg:mb-0">

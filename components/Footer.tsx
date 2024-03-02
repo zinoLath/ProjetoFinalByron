@@ -21,7 +21,7 @@ export const Footer = () => {
 				</div>
 			</div>
 
-			<picture className="w-96 bg-red-400">
+			<picture className="w-70 bg-red-400">
 				<Image src={logo} alt="Logo:" />
 			</picture>
 
