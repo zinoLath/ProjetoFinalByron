@@ -24,7 +24,7 @@ const SobrePage = () => {
             Somos uma empresa de elo booster especialista em ajudar o jogador a conseguir o seu elo desejado desde 2023.
         </div>
 
-        <div className="px-48 text-4xl sm:text-6xl flex  ">
+        <div className="px-48 text-4xl sm:text-6xl flex text-verde mine custom-center">
             Nossa Jornada
         </div>
         <div className="text-lg flex text-justify justify-center px-48 pb-12">
@@ -32,7 +32,7 @@ const SobrePage = () => {
         </div>
 
         
-        <div className="px-48 text-4xl sm:text-6xl flex ">
+        <div className="px-48 text-4xl sm:text-6xl flex text-rosa mine custom-center">
             Nossos Valores
         </div>
     </div>
@@ -42,7 +42,7 @@ const SobrePage = () => {
         </div>
 
         
-        <div className="px-48 text-4xl sm:text-6xl flex justify-center">
+        <div className="px-48 text-4xl sm:text-6xl flex justify-center text-amarelo mine pb-16 ">
             POR QUÊ NOS ESCOLHER?
         </div>
         <div className="text-3xl text-justify flex justify-center px-48">
@@ -56,8 +56,10 @@ const SobrePage = () => {
         <picture className="pt-32 pb-20 flex justify-center">
             <Image src={tortuga} alt="tartaruga lol"/>
         </picture>
-        <div className="px-48 text-4xl sm:text-6xl flex justify-center pb-12">
-            CONHEÇA NOSSA EQUIPE!
+        <div className=" gap-2 px-48 text-[30px] custom md:text-[70px] lg:text-[100px] flex justify-center pb-12 ">
+            <h1 className="texto-com-gradiente sten">CONHEÇA</h1>
+            <h1 className="texto-com-gradiente sten">NOSSA</h1>
+            <h1 className="texto-com-gradiente sten">EQUIPE!</h1>
         </div>
 
         
