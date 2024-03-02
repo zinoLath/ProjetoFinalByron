@@ -119,3 +119,39 @@ body
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
 
 }
+
+@font-face {
+    font-family: 'Minercraftory';
+    src: url('../assets/Minercraftory.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mine {
+    font-family: 'Minercraftory', sans-serif;
+}
+
+@font-face {
+    font-family: 'Stencilie';
+    src: url('../assets/stencilie.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sten {
+    font-family: 'Stencilie', sans-serif;
+}
+
+.texto-com-gradiente {
+    background: linear-gradient(180deg, #28CBFF 0%, #A8FFD0 100%);
+    background-clip: text;
+    color: transparent; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 478px) {
+    .custom {
+    font-size: 45px;
+    }
+}

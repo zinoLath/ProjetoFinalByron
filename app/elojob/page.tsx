@@ -34,7 +34,7 @@ const ElojobPage = () => {
 
   return (
     <>
-      <div className="bg-[url('/elojob-bg.png')] bg-local bg-origin-border bg-center bg-cover h-fit py-32"> 
+      <div className="bg-[url('/elojob-bg.png')] responsive-circle bg-local bg-origin-border bg-center bg-cover h-fit py-32"> 
         <div className="flex flex-row elojob-bg m-auto w-[51rem] h-[51rem] items-center justify-center place-content-center py-32">
           <div className="w-full">
             <div className="text-center">
