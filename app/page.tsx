@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-4xl sm:text-6xl h1 text-center py-20 px-20">
+      <div className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl h1 text-center py-20 px-20">
         CONHEÇA NOSSOS PRODUTOS!
       </div>
       
@@ -90,20 +90,20 @@ export default function Home() {
       </div>
 
       <div className="w-full feedback-bg">
-        <div className="text-6xl h1 text-center py-20 px-20">
+        <div className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl h1 text-center py-20 px-20">
           O QUE FALAM SOBRE NÓS
         </div>
-        <div className="flex flex-col flex-wrap lg:flex-row items-center justify-between w-full py-10 lg:px-40 max-w-fit m-auto">
-          <picture className="w-96 pb-4 m-auto">
+        <div className="flex flex-col flex-wrap lg:flex-row items-center justify-between w-full py-10 lg:px-40 maw-w-full sm:max-w-fit m-auto">
+          <picture className="w-72 sm:w-96 pb-4 m-auto">
             <Image src={sc1} alt="screenshot"/>
           </picture>
-          <picture className="w-96 pb-4 m-auto">
+          <picture className="w-72 sm:w-96 pb-4 m-auto">
             <Image src={sc2} alt="screenshot"/>
           </picture>
-          <picture className="w-96 pb-4 m-auto">
+          <picture className="w-72 sm:w-96 pb-4 m-auto">
             <Image src={sc3} alt="screenshot"/>
           </picture>
-          <picture className="w-96 pb-4 m-auto">
+          <picture className="w-72 sm:w-96 pb-4 m-auto">
             <Image src={sc4} alt="screenshot"/>
           </picture>
         </div>
