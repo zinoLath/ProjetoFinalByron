@@ -8,29 +8,6 @@ import {Button} from "@nextui-org/button";
 
 
 const ElojobPage = () => {
-  const [selectedKeysCurrent, setSelectedKeysCurrent] = React.useState(new Set(["Ferro"]));
-  const [selectedKeysFuture, setSelectedKeysFuture] = React.useState(new Set(["Ouro"]));
-
-  const selectedValueCurrent = React.useMemo(
-    () => Array.from(selectedKeysCurrent).join(", ").replaceAll("_", " "),
-    [selectedKeysCurrent])
-  const selectedValueFuture = React.useMemo(
-    () => Array.from(selectedKeysFuture).join(", ").replaceAll("_", " "),
-    [selectedKeysFuture])
-
-  const eloMap = new Map();
-  eloMap.set("Ferro",0);
-  eloMap.set("Bronze",1);
-  eloMap.set("Prata",2);
-  eloMap.set("Ouro",3);
-  eloMap.set("Platina",4);
-  eloMap.set("Esmeralda",5);
-  eloMap.set("Diamante",6);
-  eloMap.set("Mestre",7);
-  eloMap.set("Grão-Mestre",8);
-  eloMap.set("Desafiante",9);
-
-  const colors = ["#9c9c9c", "#ffc69e", "#d9d9d9", "#ffe59e", "#9effe8", "#9effa9", "#9efaff", "#b69eff", "#ff9e9e", "#9ebbff"];
 
   return (
     <>
@@ -48,9 +25,11 @@ const ElojobPage = () => {
                 <div className="text-2xl">
                   R$ 150,00
                 </div>
+                <Link href={"/buy"}>
                 <div className="text-center justify-self-start place-self-start self-start bg-red-700 hover:bg-red-600 shadow-lg hover:shadow-2xl text-white px-5 py-5 w-52 rounded-2xl text-xl transition-all">
                   <button>ASSINE JÁ!</button>
                 </div>
+                </Link>
               </div>
               <picture className="collapse md:visible">
                 <Image src={xerath_script} alt="xerath" />
