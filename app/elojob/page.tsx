@@ -61,6 +61,7 @@ const ElojobPage = () => {
                     selectionMode="single"
                     disallowEmptySelection
                     selectedKeys={selectedKeysCurrent}
+                    //@ts-ignore
                     onSelectionChange={setSelectedKeysCurrent}>
                     <DropdownItem style={{color: colors[eloMap.get("Ferro")],}} key="Ferro">Ferro</DropdownItem>
                     <DropdownItem style={{color: colors[eloMap.get("Bronze")],}} key="Bronze">Bronze</DropdownItem>
@@ -93,6 +94,7 @@ const ElojobPage = () => {
                     selectionMode="single"
                     disallowEmptySelection
                     selectedKeys={selectedKeysFuture}
+                    //@ts-ignore
                     onSelectionChange={setSelectedKeysFuture}>
                     <DropdownItem style={{color: colors[eloMap.get("Bronze")],}} key="Bronze">Bronze</DropdownItem>
                     <DropdownItem style={{color: colors[eloMap.get("Prata")],}} key="Prata">Prata</DropdownItem>
