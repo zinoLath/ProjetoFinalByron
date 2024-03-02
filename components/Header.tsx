@@ -12,10 +12,10 @@ export const Header = () => {
 				</picture>
 
 				<ul className="links flex items-center gap-10 pr-0 lg:pr-40 nexa-font text-sm sm:text-lg md:text-xl xl:text-2xl 2xl:text-4xl">
-					<li><Link href={'/'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Home</Link></li>
-					<li><Link href={'/sobre'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Sobre</Link></li>
-					<li><Link href={'/elojob'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Elojob</Link></li>
-					<li><Link href={'/script'} className="underline hover:underline-offset-8 hover:text-5xl transition-all">Script</Link></li>
+					<li><Link href={'/'} className="underline hover:underline-offset-8 hover:text-lg sm:hover:text-xl md:hover:text-2xl xl:hover:text-4xl 2xl:hover:text-8xl transition-all">Home</Link></li>
+					<li><Link href={'/sobre'} className="underline hover:underline-offset-8 hover:text-lg sm:hover:text-xl md:hover:text-2xl xl:hover:text-4xl 2xl:hover:text-8xl transition-all">Sobre</Link></li>
+					<li><Link href={'/elojob'} className="underline hover:underline-offset-8 hover:text-lg sm:hover:text-xl md:hover:text-2xl xl:hover:text-4xl 2xl:hover:text-8xl transition-all">Elojob</Link></li>
+					<li><Link href={'/script'} className="underline hover:underline-offset-8 hover:text-lg sm:hover:text-xl md:hover:text-2xl xl:hover:text-4xl 2xl:hover:text-8xl transition-all">Script</Link></li>
 				</ul>
 			</div>
 		</header>
